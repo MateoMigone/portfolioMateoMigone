@@ -14,7 +14,7 @@ const Profile = () => {
     >
       <Avatar
         alt="Foto de perfil"
-        src="/src/assets/fotoPerfilLinkedIn.jpeg"
+        src="/assets/fotoPerfilLinkedIn.jpeg"
         sx={{ width: 250, height: 250 }}
       />
       <Box padding="1rem 2rem" border="1px dashed grey" borderRadius="0.3rem">
