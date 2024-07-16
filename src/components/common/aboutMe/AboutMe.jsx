@@ -51,20 +51,24 @@ const AboutMe = () => {
               textAlign: "justify",
             }}
           >
-            Actualmente soy un estudiante de la carrera Certified Tech Developer
-            en Digital House, apasionado por la tecnología y el desarrollo de
-            software. Durante mi formación previa a adentrarme en el desarrollo
-            de tecnologías en Digital House, realicé 3 años de ingeniería
-            informática en la Universidad Católica Argentina. A lo largo de mis
-            estudios he adquirido conocimientos en lenguajes de programación
-            como JavaScript, Python, C, Java, HTML, CSS y SQL así como también
-            en testing, metodologías ágiles y buenas prácticas de programación,
-            aplicado tanto en programación web como en estructurada u orientada
-            a objetos. Soy una persona proactiva y con capacidad para trabajar
-            en equipo, siempre dispuesto a aprender y a enfrentar nuevos
-            desafíos. Estoy en busca de oportunidades laborales en el campo de
-            la tecnología, donde pueda aplicar mis habilidades y seguir
-            desarrollándome profesionalmente.
+            Mi nombre completo es Mateo José Migone. Soy ítalo-argentino, nacido
+            en la capital de Buenos Aires y viviendo desde entonces en zona
+            norte. <br />
+            Actualmente soy estudiante de la carrera Certified Tech Developer en
+            Digital House, apasionado por la tecnología y el desarrollo de
+            software. Durante mi formación previa a adentrarme en esta carrera
+            realicé 3 años de ingeniería informática en la Universidad Católica
+            Argentina. A lo largo de mis estudios he adquirido conocimientos en
+            lenguajes de programación como HTML, CSS, JavaScript, Python, Java,
+            MySQL y tecnologías como React JS, Vue JS, Git, Github y Figma.
+            Tambien me introduje en algunas herramientas utiles como lo son el
+            testing, las metodologías ágiles y las buenas prácticas de
+            programación. Soy una persona con gran capacidad para trabajar en
+            equipo, siempre dispuesto a aprender y a enfrentar nuevos desafíos.
+            <br />
+            Otra pasión que tengo en la vida es el deporte, especialmente el
+            fútbol. Lo practico y lo veo cada vez que puedo. También disfruto
+            mucho de jugar videojuegos y de ver peliculas/series.
           </Typography>
         </Paper>
       </Box>
