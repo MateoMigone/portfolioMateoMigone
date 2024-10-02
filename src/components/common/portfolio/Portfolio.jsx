@@ -50,6 +50,13 @@ const Portfolio = () => {
           />
 
           <ProjectCardContainer
+            name="Fly Mountain"
+            img="/public/assets/flyMountain.png"
+            description="Trabajé con mi equipo bajo metodologías ágiles para desarrollar una página web que sirve como sistema de reservas para las diferentes actividades que se ofrecen en un centro de slackline. Utilizamos React.js y Bootstrap para el frontend, Node.js, Express.js y prisma para el backend, MySql para la base de datos y AWS S3 y AWS EC2 para la infraestructura."
+            url="http://fly-mountain-app.s3-website.us-east-2.amazonaws.com/"
+          />
+
+          <ProjectCardContainer
             name="Futbol retro"
             img="/assets/futbolRetroPreview.png"
             description="Un ecommerce realizado con react js, estilada con css y librerías como material ui y sweet alert, complementado con el uso de formik y yup para validaciones y la incorporación de firebase para el manejo de la base de datos."
