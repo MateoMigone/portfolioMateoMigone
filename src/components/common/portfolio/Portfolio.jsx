@@ -51,7 +51,7 @@ const Portfolio = () => {
 
           <ProjectCardContainer
             name="Fly Mountain"
-            img="/public/assets/flyMountain.png"
+            img="/assets/flyMountain.png"
             description="Trabajé con mi equipo bajo metodologías ágiles para desarrollar una página web que sirve como sistema de reservas para las diferentes actividades que se ofrecen en un centro de slackline. Utilizamos React.js y Bootstrap para el frontend, Node.js, Express.js y prisma para el backend, MySql para la base de datos y AWS S3 y AWS EC2 para la infraestructura."
             url="http://fly-mountain-app.s3-website.us-east-2.amazonaws.com/"
           />
