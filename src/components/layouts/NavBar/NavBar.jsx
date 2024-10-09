@@ -1,7 +1,7 @@
 import { Box, Button, Toolbar, Typography } from "@mui/material";
 import React from "react";
 
-const NavBar = () => {
+const NavBar = ({ scrollToPortfolio, scrollToAboutMe }) => {
   return (
     <nav
       style={{
@@ -22,24 +22,23 @@ const NavBar = () => {
           MATEO MIGONE
         </Typography>
         <Box sx={{ display: "flex", gap: "2rem" }}>
-          <a href="#portfolio">
-            <Button
-              variant="contained"
-              size="large"
-              sx={{ backgroundColor: "#00b0ff" }}
-            >
-              Portfolio
-            </Button>
-          </a>
-          <a href="#about-me">
-            <Button
-              variant="contained"
-              size="large"
-              sx={{ backgroundColor: "#00b0ff" }}
-            >
-              Sobre mi
-            </Button>
-          </a>
+          <Button
+            variant="contained"
+            size="large"
+            sx={{ backgroundColor: "#00b0ff" }}
+            onClick={scrollToPortfolio}
+          >
+            Portfolio
+          </Button>
+
+          <Button
+            variant="contained"
+            size="large"
+            sx={{ backgroundColor: "#00b0ff" }}
+            onClick={scrollToAboutMe}
+          >
+            Sobre mi
+          </Button>
         </Box>
       </Toolbar>
     </nav>

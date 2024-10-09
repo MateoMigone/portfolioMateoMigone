@@ -18,6 +18,7 @@ const ProjectCard = ({ project }) => {
         justifyContent: "space-between",
         alignItems: "center",
       }}
+      data-aos="fade-up"
     >
       <div>
         <CardMedia

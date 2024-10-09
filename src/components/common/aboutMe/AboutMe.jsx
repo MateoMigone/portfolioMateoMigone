@@ -11,6 +11,7 @@ const AboutMe = () => {
         display="flex"
         justifyContent="center"
         sx={{ paddingBottom: "75px" }}
+        data-aos="zoom-in"
       >
         <Paper
           elevation={8}
