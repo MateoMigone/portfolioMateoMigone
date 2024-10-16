@@ -64,6 +64,13 @@ const Portfolio = () => {
           />
 
           <ProjectCardContainer
+            name="One hundred Checkboxes"
+            img="/assets/oneHundredCheckboxes.png"
+            description="Un juego interactivo en tiempo real en donde multiples usuarios interactúan con una grilla de checkboxes para completarla. Realizado con react js, css, material ui, node js y socket.io."
+            url="https://one-thousand-checkboxes-front.vercel.app/"
+          />
+
+          <ProjectCardContainer
             name="Stopwatch"
             img="/assets/stopwatchPreview.png"
             description="Una página web que ofrece la funcionalidad de un cronómetro. Desarrollado con React JS y estilado con CSS."
